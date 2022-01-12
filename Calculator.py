@@ -11,16 +11,17 @@ def multiply (num1, num2):
 def divide (num1 , num2):
     return num1 / num2
 
-print("Please select operation -" \
-        "1. Add" \
-        "2. Subtract" 
-        "3. Multiply" 
-        "4. Divide")
+print("Select operation.")
+print("1.Add")
+print("2.Subtract")
+print("3.Multiply")
+print("4.Divide")
+
 
 select = int(input("Select Operations from 1,2,3,4 :"))
 
-number_1 = int(input("Enter First number"))
-number_2 = int(input("Enter Second number")) 
+number_1 = int(input("Enter First number: "))
+number_2 = int(input("Enter Second number:")) 
 
 if select == 1:
     print(number_1, "+", number_2, "=",
